@@ -22,3 +22,30 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  .card {
+    background-color: #1e1e1e;
+    border-color: #333333;
+    color: #ffffff;
+  }
+
+  .card .card-title {
+    color: #6ea8fe;
+  }
+
+  .card .card-subtitle {
+    color: #a0a0a0 !important;
+  }
+
+  .alert-primary {
+    background-color: #032830;
+    color: #6edff6;
+    border-color: #084298;
+  }
+}
