@@ -9,9 +9,14 @@ body {
   color: #333;
 }
 
+.navbar-brand {
+  font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+}
+
 .card .card-title {
   color: #0b5ed7;
   font-weight: bold;
+  font-size: clamp(1.15rem, 1.8vw, 1.45rem);
 }
 
 .card {
